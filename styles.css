@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -9,7 +8,6 @@ body {
     margin: 0;
 }
 
-/* Contenedor principal */
 .container {
     text-align: center;
     background-color: #fff;
@@ -18,17 +16,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos y texto */
 h1 {
-    color: #d63384; /* Rosa fuerte */
+    color: #333;
 }
 
 p {
-    color: #d63384; /* Ajustado a rosa fuerte para mejor visibilidad */
-    font-size: 1.2rem;
+    color: #666;
 }
 
-/* Botón general */
 button {
     background-color: #007BFF;
     color: white;
@@ -37,38 +32,12 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 button:hover {
     background-color: #0056b3;
-    transform: scale(1.05);
 }
 
-/* Botón "Sí" */
-#yes {
-    background-color: #28a745; /* Verde */
-    color: white;
-    margin: 5px;
-}
-
-#yes:hover {
-    background-color: #218838;
-}
-
-/* Botón "No" */
-#no {
-    background-color: #dc3545; /* Rojo */
-    color: white;
-    margin: 5px;
-}
-
-#no:hover {
-    background-color: #c82333;
-}
-
-/* Clase oculta */
 .hidden {
     display: none;
-}
-
+} este es el de styles.css
