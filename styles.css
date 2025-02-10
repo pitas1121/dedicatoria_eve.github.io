@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,6 +9,7 @@ body {
     margin: 0;
 }
 
+/* Contenedor principal */
 .container {
     text-align: center;
     background-color: #fff;
@@ -16,14 +18,16 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Títulos y texto */
 h1 {
-    color: #d63384;
+    color: #d63384; /* Rosa fuerte */
 }
 
 p {
     color: #666;
 }
 
+/* Botón general */
 button {
     background-color: #007BFF;
     color: white;
@@ -36,6 +40,11 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* Clase oculta */
+.hidden {
+    display: none;
 }
 
 .hidden {
